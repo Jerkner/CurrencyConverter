@@ -24,9 +24,20 @@ This project stemmed from the need to simplify currency conversions for daily ta
 
 The logic primarily revolves around managing state for the input value, base currency, and fetching current rates. The `handleInputChange` and `handleCurrencyChange` functions update the UI based on user input and currency selection. The `useCurrencyRates` hook fetches the latest rates for the selected base currency.
 
+## Usage
+
+1. **Clone the Repository:** `git clone https://github.com/your-username/currency-converter.git`
+2. **Install Dependencies:** `npm install`
+3. **Start the Application:** `npm start`
+4. **Access the Converter:** Open your browser and navigate to `http://localhost:3000`
+
 ## How It Works
 
 The application provides a straightforward interface. Select the base currency, enter the amount, and instantly view the converted values for USD, EUR, and BRL.
+
+### Note
+
+Ensure to set up an environment variable `VITE_API_KEY` for the API key to enable fetching the latest conversion rates.
 
 ## Next Steps
 
@@ -34,4 +45,4 @@ Future improvements might include enhancing the UI/UX, adding more currency opti
 
 ## Contact
 
-For any questions or suggestions regarding this project, feel free to reach out to me [here](mailto:philip@jerkner.se).
+For any questions or suggestions regarding this project, feel free to reach out to [Your Name](mailto:your-email@example.com).
