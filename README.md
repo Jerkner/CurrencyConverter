@@ -4,7 +4,7 @@ A simple yet powerful currency converter web application built using React. This
 
 ## Overview
 
-This project stemmed from the need to simplify currency conversions for daily tasks. Observing the manual and time-consuming process my girlfriend encountered using a phone calculator for currency conversions in her job, I designed this React app. It fetches the latest conversion rates through an API to provide quick and accurate currency conversions.
+This project stemmed from the need to simplify currency conversions for daily tasks. Observing the manual and time-consuming process my girlfriend encountered using a phone calculator for currency conversions in her job, I designed this React app. It fetches the latest conversion rates through the [ExchangeRate-API](https://www.exchangerate-api.com/) to provide quick and accurate currency conversions.
 
 ## Features
 
